@@ -4,10 +4,10 @@ using System.Collections;
 public class AlphaChanger : MonoBehaviour {
 
 	void Awake(){
-		Color tempColor = GetComponent<MeshRenderer>().material.color;
-		tempColor.a = 0.5f;
+		//Color tempColor = GetComponent<MeshRenderer>().material.color;
+		//tempColor.a = 0.5f;
 
-		GetComponent<MeshRenderer>().material.color = tempColor;
+		//GetComponent<MeshRenderer>().material.color = tempColor;
 
 	}
 
